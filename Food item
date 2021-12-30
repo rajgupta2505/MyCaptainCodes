@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+    int item=0;
+    printf("Enter Your Choice of Item:\n 1.Pizza, Rs 239 \n 2.Burger, Rs 129 \n 3.Pasta, Rs 179 \n 4.French Fries, Rs 99 \n 5.Sandwich, Rs 149 \n");
+    scanf("%d",&item);
+    
+    switch(item)
+    {
+    case 1:printf("Order Successful for Pizza"); break;
+    case 2:printf("Order Successful for Burger"); break;
+    case 3:printf("Order Successful for Pasta"); break;
+    case 4:printf("Order Successful for French Fries"); break;
+    case 5:printf("Order Successful for Sandwich"); break;
+    default: printf("Invalid Order"); break;
+
+    }
+    return 0;
+}
