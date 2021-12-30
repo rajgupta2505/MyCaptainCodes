@@ -1,0 +1,45 @@
+--FOR Loop--
+
+#include <stdio.h>
+int main() 
+{
+    int i=0;
+   // for(Initialization;Condition;Updation)                            //FOR LOOP IS USED WHEN WE ARE SURE HOW MANY TIMES THE LOOP TO RUN
+   for(i=1;i<=10;i++)
+   {
+       //loop body
+   }
+}
+
+
+
+--WHILE LOOP--
+
+#include <stdio.h>
+int main()
+{
+    int i=0:
+    // Intialization
+    // while(condition)                                                 // WHILE LOOP IS USED WHEN WE ARE UNSURE ABOUT HOW MANY TIMES THE LOOP WILL RUN
+    {
+        // Loop body
+        
+        // Updation
+    }
+}
+
+--DO WHILE LOOP--
+
+#include <stdio.h>
+int main()
+{
+    int i=0;
+    // Initialization
+    do{                                    
+        //Loop body                      // DO WHILE LOOP IS USED FOR EXCLUSIVELY FOR MENU BASED PROGRAMMES.. SINCE THE LOOP BODY WILL RUN ATLEAST FOR ONE TIME since conditions are checked at last of the loop body
+        
+        // Updation
+    }
+    // while (condition);
+    
+}
