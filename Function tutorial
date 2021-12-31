@@ -1,0 +1,22 @@
+
+#include <stdio.h>
+
+int addition(void);                 //function prototype
+
+int main()
+{
+
+  //core functionality
+
+  addition();              //function call
+}
+
+int addition()                 //function definition
+{
+    int a=0, b=0;
+    printf("Enter 2 numbers : ");
+    scanf ("%d%d", &a, &b) ;
+    printf("\nThe sum is : %d\n",a+b);
+    return 0;
+}
+
